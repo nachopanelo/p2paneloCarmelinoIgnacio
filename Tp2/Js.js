@@ -14,7 +14,7 @@ function getJugador(){
 function getCharacter() {
 fetch (`https://rickandmortyapi.com/api/character/1`)
 .then (function(response){
-  return response.Json()
+  return response.json()
 })
 .then (function(data){
  console.log(data);
