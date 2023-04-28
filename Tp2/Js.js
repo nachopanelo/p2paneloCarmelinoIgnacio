@@ -10,3 +10,13 @@ function getJugador(){
     }
     console.log (jugador.club)
 }
+
+function getCharacter() {
+fetch (`https://rickandmortyapi.com/api/character/1`)
+.then (function(response){
+  return response.Json()
+})
+.then (function(data){
+ console.log(data);
+})
+}
