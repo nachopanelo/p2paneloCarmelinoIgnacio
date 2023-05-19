@@ -92,7 +92,7 @@ function comparar()
         } else if(iguales > 1) {
             document.getElementById("qdm").innerText = 'Aparecen en la misma cantidad de episodios ('+igualNames+') con '+ maxeps;
         }
-  eps.length = 0;
+        eps.length = 0;
         names.length = 0;
     }
 }
